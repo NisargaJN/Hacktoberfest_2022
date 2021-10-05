@@ -2,6 +2,12 @@ body {
     margin: 0;
     min-width: 250px;
   }
+
+  h2{
+    font-weight: bold;
+    color:chocolate;
+    font-size:40px;
+  }
   
   /* Include the padding and border in an element's total width and height */
   * {
@@ -77,9 +83,11 @@ body {
   
   /* Style the header */
   .header {
-    background-color: #45d339;
+    /* background-color: #45d339; */
+    background-image: url("https://media.gettyimages.com/photos/to-do-list-on-notebook-page-with-laptop-and-coffee-mug-picture-id1077341604?s=612x612");
+    background-repeat: no-repeat;
+    background-size: cover;
     padding: 30px 40px;
-    color: white;
     text-align: center;
   }
   
@@ -104,7 +112,7 @@ body {
   /* Style the "Add" button */
   .addBtn {
     padding: 10px;
-    width: 25%;
+    width: 10%;
     background: #5cc;
     color: #fff;
     float: left;
