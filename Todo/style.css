@@ -1,6 +1,10 @@
 body {
     margin: 0;
     min-width: 250px;
+    background: #74ebd5;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #ACB6E5, #74ebd5);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #ACB6E5, #74ebd5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
   }
 
   h2{
@@ -84,10 +88,11 @@ body {
   /* Style the header */
   .header {
     /* background-color: #45d339; */
-    background-image: url("https://media.gettyimages.com/photos/to-do-list-on-notebook-page-with-laptop-and-coffee-mug-picture-id1077341604?s=612x612");
+    background-image: url("https://images.unsplash.com/photo-1507925921958-8a62f3d1a50d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1776&q=80");
     background-repeat: no-repeat;
-    background-size: cover;
-    padding: 30px 40px;
+    background-size: 100% 100%;
+   
+    padding: 30px 30px;
     text-align: center;
   }
   
@@ -103,7 +108,7 @@ body {
     margin: 0;
     border: none;
     border-radius: 0;
-    width: 75%;
+    width: 60%;
     padding: 10px;
     float: left;
     font-size: 16px;
